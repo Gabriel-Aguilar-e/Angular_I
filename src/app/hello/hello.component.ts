@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { WorldComponent } from '../world/world.component';
+import { PalindromoComponent } from '../palindromo/palindromo.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-hello',
-  imports: [FormsModule, WorldComponent],
+  imports: [FormsModule, WorldComponent, PalindromoComponent, RouterLink],
   templateUrl: './hello.component.html',
   styleUrl: './hello.component.css'
 })
